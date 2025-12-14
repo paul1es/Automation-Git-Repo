@@ -1,5 +1,5 @@
 ---
-- hosts: 127.0.0.1
+- hosts: vios_group
   #gather_facts: false
   tasks:
     - name: Print ansible config location
