@@ -2,6 +2,9 @@
 CE-A-R01 ansible_host=10.10.116.10
 CE-B-R01 ansible_host=10.10.200.6
 
+[vios_group:children]
+vios_group
+
 [vios_group:vars]
 ansible_connection=ansible.netcommon.network_cli
 ansible_network_os=cisco.ios.ios
