@@ -7,4 +7,5 @@
         msg: 
           - "{{ ansible_config_file }}"
           - "{{ ansible_facts }}"
+          - "{{ inventory_file }}"
           
